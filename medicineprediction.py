@@ -113,9 +113,3 @@ if st.button("Predict"):
         st.info(f"**Recommended Medicine:** {dosage}")
     else:
         st.error("Please enter symptoms.")
-
-#text feature extraction -(countVectorizer)
-#Classification algorithm - (Multinomial Naive Bayes (mnb))
-#Pipelint - ([countVectorizer,mnb])
-#Rule-based Medicine Recommendation
-#Dosage recommendation based on age
